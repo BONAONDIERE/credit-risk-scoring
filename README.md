@@ -51,6 +51,4 @@ The dataset contains loan application and borrower information including:
 
 ## Author
 
-Rerai John Kihanya  
-MSc Data Science  
-University of Hertfordshire
+Ruth Bonareri Ondiere

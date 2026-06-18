@@ -1,44 +1,24 @@
 # Credit Risk Scoring Model
 
-## Project Overview
-This project builds a machine learning credit scoring system to predict the probability of loan default.
+**Business question:** Which borrowers are likely to 
+default — and how early can a model identify them?
 
-The model analyzes borrower financial information and assigns a credit score that reflects the risk level.
+## Results
+- **88% AUC-ROC** on holdout test set
+- **12 features engineered** from raw borrower and 
+  transaction data
+- Best model: XGBoost, outperforming Logistic 
+  Regression and Random Forest
+- Threshold optimised for business risk tolerance — 
+  tuned to catch more defaulters at acceptable 
+  precision cost
 
-## Dataset
-The dataset contains loan application and borrower information including:
-
-- Loan amount
-- Interest rate
-- Annual income
-- Employment length
-- Debt-to-income ratio
-- Credit history
-- Loan status
-
-## Project Workflow
-
-1. Data Loading
-2. Data Cleaning
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Model Training
-6. Model Evaluation
-7. Credit Score Generation
-
-## Machine Learning Models Used
-
-- Logistic Regression
-- Random Forest
-- Gradient Boosting
-
-## Evaluation Metrics
-
-- ROC-AUC
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
+## The problem
+Lenders need to assess credit risk before issuing 
+loans. Manual review is slow and inconsistent. 
+This model automates that assessment using 
+historical borrower data and assigns a probability 
+of default that can inform approval decisions.
 
 ## Tools & Libraries
 
